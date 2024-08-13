@@ -1,3 +1,5 @@
+import Footer from "@/components/footer";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center h-dvh bg-Yellow">
@@ -16,6 +18,7 @@ export default function Home() {
           <p className="text-Gray-950 font-extrabold">Greg Hooper</p>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
